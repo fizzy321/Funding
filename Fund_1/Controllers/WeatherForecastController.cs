@@ -8,7 +8,7 @@ namespace Fund_1.Controllers
     {
         private static readonly string[] Summaries =
         [
-            "Freezing", "Bracing", "Chilly", "Mild", "Warm", "Balmy", "Hot", "Sweltering", "Scorching"
+            "Hot", "Sweltering", "Scorching"
         ];
 
         [HttpGet(Name = "GetWeatherForecast")]
